@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>votaciones</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div id="funcionesExtra">
+
+        <button id="candidatos">Ver candidatos</button>
+        <button id="votacionesRealizadas">Ver votaciones</button>
+
+    </div>
+
+    <div id="registroCandidatos">
+
+        <h2 id="titulo">Lapsus Napoleón Franco</h2>
+        <h3 id="explicacion">Registre su candidato para la encuesta</h3>
+
+        <input id="identificacion" placeholder="Id" type="text"> 
+        <input id="nombre" placeholder="Nombre" type="text">
+
+        <button id="registracion">Registrar</button>
+    
+    </div>
+
+    <div id="votacion">
+
+        <h3 id="explicacionVotacion">Vota por el candidato usando el id</h3>
+
+        <input id="identicicacionVoto" placeholder="Id" type="text">
+
+        <button id="realizarVotacion">Votar</button>
+
+    </div>
+    
+</body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+<script>
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyCbYBXPHFNc0eu7l1TEzTRP9kVl_t_vin0",
+      authDomain: "proyectosemanadiez.firebaseapp.com",
+      databaseURL: "https://proyectosemanadiez.firebaseio.com",
+      projectId: "proyectosemanadiez",
+      storageBucket: "proyectosemanadiez.appspot.com",
+      messagingSenderId: "744391261639",
+      appId: "1:744391261639:web:70ff8fe4a38762ec39ade2",
+      measurementId: "G-3FBGJSVJP7"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+<script src="js/index.js"></script>

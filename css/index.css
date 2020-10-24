@@ -1,0 +1,73 @@
+#registroCandidatos {
+
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#registroCandidatos * {
+
+    width: 30em;
+    margin: 0.5em 10em 0.5em 10em;
+    text-align: center;
+
+}
+
+#votacion {
+
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#votacion * {
+
+    width: 30em;
+    margin: 0.5em 10em 0.5em 10em;
+    text-align: center;
+
+}
+
+#funcionesExtra {
+
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    align-items: flex-end;
+    margin: 0em 10em 0em 75%;
+
+}
+
+#registracion {
+
+    width: 15em;
+    color: white;
+    background-color: crimson;
+    border-color: red;
+
+}
+
+#realizarVotacion {
+
+    width: 15em;
+    color: white;
+    background-color: crimson;
+    border-color: red;
+
+}
+
+#funcionesExtra * {
+
+    margin: 0.5em 0 0.5em 0;
+
+    color: white;
+    background-color: crimson;
+    border-color: red;
+
+}
